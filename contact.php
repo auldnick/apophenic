@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿<?php
 
 // configure
@@ -84,4 +83,3 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 else {
     echo $responseArray['message'];
 }
->>>>>>> 64a1d33af306144d841e29e07779c81f418221c3
