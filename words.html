@@ -59,26 +59,26 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="index.html#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#">Home</a>
+                        <a class="page-scroll" href="index.html">Home</a>
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="index.html#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">what we do</a>
+                        <a class="page-scroll" href="index.html#services">what we do</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#word">Word of the moment</a>
+                        <a class="page-scroll" href="index.html#word">Word of the moment</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Projects</a>
+                        <a class="page-scroll" href="index.html#portfolio">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact us</a>
+                        <a class="page-scroll" href="index.html#contact">Contact us</a>
                     </li>
 <!--
                     <li>
@@ -115,22 +115,26 @@
 
 
     <!-- Services Section -->
-    <section>
+    <section class="section-nopadding">
         <!--div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center"-->
-                    <p class="word big">Serendipity</p>
-                    <p class="word small">Intertwingularity</p>
-                    <p class="word big">Apophenia</p>
-                    <p class="word big">Awe</p>
-                    <p class="word small">Negenthropy</p>
-                    <p class="word big">Generic</p>
-                    <p class="word small">Oscillation</p>
-                    <p class="word small">Future-proof</p>
-                    <p class="word big">Weird</p>
+                <div id="bigtext">
+                    <span>Serendipity</span>
+                    <span>Intertwingularity</span>
+                    <span>Apophenia</span>
+                    <span>Awe</span>
+                    <span>Negenthropy</span>
+                    <span>Generic</span>
+                    <span>Oscillation</span>
+                    <span>Future-proof</span>
+                    <span class="word-nohover">Weirdness</span>
                 <!--/div>
             </div>
         </div-->
+
+        </div>
+
     </section>
     <footer>
         <div class="container">
@@ -160,6 +164,11 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
     <script src="js/wordoftheday.js"></script>
+    <script src="js/bigtext.js"></script>
+
+    <script>
+    $('#bigtext').bigtext();
+    </script>
 </body>
 
 </html>
